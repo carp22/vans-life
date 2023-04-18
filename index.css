@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+nav > a {
+    text-decoration: none;
+}
+.vans-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 26px 40px 26px;
+    background-color: #FFF7ED;
+
+}
+.vans-navbar > a{  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+
+    text-decoration: none;
+    text-align: right;
+
+    color: #4D4D4D;
+}
+.vans-label{
+    margin-left:15px;
+}
+.vans-header > a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25.3531px;
+    line-height: 40px;
+
+    text-decoration: none;
+    color: #000000;
+}
+.vans-body{
+     background-color: #FF8C38;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+.vans-body > h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.vans-body > p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+.vans-body > h2{
+    padding-left: 145px;
+    padding-right: 145px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #FFDDB3;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.vans-body > h2:hover{
+    cursor: pointer;
+}
+.vanlife-label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25.3531px;
+    line-height: 40px;
+    color: #000000;
+}
+.about-label, .vans-label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+}
+.about-label:checked, .vans-label:checked{
+    color: red;
+}
+.about-body{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 26px;
+    padding-right: 26px;
+    background-color: #FFF7ED;
+}
+.about-body > p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #161616;
+}
+.rental-section{
+    background: #FFCC8D;
+    border-radius: 5px;
+    padding: 32px 37px 45px 37px;
+    margin-bottom: 50px;
+}
+.rental-section > h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #161616;
+}
+.rental-section > h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.9462px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 12px 22px 12px 22px;
+    margin-right: 283px;
+}
+.rental-section > h2:hover{
+    cursor: pointer;
+}
+
+footer{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    color: #AAAAAA;
+    background: #252525;
+}
